@@ -1,0 +1,18 @@
+PODS:
+  - A (0.0.2)
+  - A_Category (0.0.1):
+    - CTMediator
+  - CTMediator (0.0.3)
+
+DEPENDENCIES:
+  - A
+  - A_Category
+
+SPEC CHECKSUMS:
+  A: 5c48619a7c51aaac6d5cf2d4db2646b57f47f298
+  A_Category: 6d4b48b43682fc58992c6088950178b2d9caafad
+  CTMediator: c9a1203561e2232cb9a72822659159a02ae3cf20
+
+PODFILE CHECKSUM: 0371ddeef415afa70e5b01dd5c23b3b2f28376c3
+
+COCOAPODS: 1.1.1

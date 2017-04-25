@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <CTMediator+CTMediator_A.h>
 
 @interface ViewController ()
 
@@ -16,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+}
+- (IBAction)pushAction:(id)sender {
+    UIViewController *controller = [[CTMediator sharedInstance] A_aViewController];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 
